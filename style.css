@@ -126,7 +126,7 @@ li{
 
 .vuelo-input{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 30px;
 }
 
@@ -190,4 +190,72 @@ li{
 .oferta{
     display: flex;
     justify-content: space-around;
+}
+
+.img-des{
+    width: 225px;
+    height: 200px;
+    border-radius:25px ;
+}
+
+.destino{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tit-des{
+    color: #1D4D8B;
+    font-family: 'Inter', sans-serif;
+}
+
+.des-inf{
+    position: relative;
+    bottom: 60px;
+    left: 10px;
+}
+
+.des-tit{
+    font-size: 10px;
+    color: white;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.des-price{
+    color: #05E744;
+    font-size: 20px;
+}
+
+.p-pre{
+    color: black;
+}
+
+.dudas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ayuda{
+    padding-bottom: 10px;
+}
+
+.cont{
+    padding-bottom: 15px;
+}
+
+.preguntas{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 25px;
+}
+
+.p-pre{
+    background-color: #B0D1FD;
+    padding-top: 10px;
+    display: flex;
+    place-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
