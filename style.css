@@ -122,6 +122,9 @@ li{
     bottom: 0;
     background-color: white;
     border: 1px solid black;
+    max-width: min-content;
+    transform: translate(225px,-125px);
+    padding: 25px;
 }
 
 .vuelo-input{
@@ -145,7 +148,8 @@ li{
     right: 0;
     left: 0;
     transform: translateY(-90px);
-    border: 1px solid black;
+    border: 1px solid transparent;
+    background-color: #ffffff78;
 }
 
 .cards{
